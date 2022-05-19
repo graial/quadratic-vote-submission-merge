@@ -1,0 +1,3 @@
+submissions: "spec/spec_data/spec_submissions.csv"
+output_headers:
+  - voter_address

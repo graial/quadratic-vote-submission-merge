@@ -1,0 +1,3 @@
+submissions: "data/submissions.csv"
+output_headers:
+  - voter_address
