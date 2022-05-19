@@ -8,8 +8,8 @@ In short, a few climate-solution oriented submissions are electing to merge our 
 
 While there are currently no stated rules around submission merges, a couple choices have been made proactively to maintain the integrity of the quadratic voting computation and maintain a level playing field.
 
-1. Quadratic voting causes each successive vote from a single voter to be exponentially more expensive in 'voting power'.  To prevent gaming, this computation, the max votes from all merged solutions is selected.
-2. This script has been posted open source so that other submissions may also use it to verify our computations and also to evaluate the votes that their own submission might gain from a merger.
+1. Quadratic voting causes each successive vote from a single voter to be exponentially more expensive in 'voting power'.  To prevent gaming, this computation, the max votes from all merged solutions is selected. Votes cast by the same voter to other submissions within the merge are discarded.
+2. This script, which performs the computation, has been posted open source so that other submissions may also use it to verify our computations and also to evaluate the votes that their own submission might gain from a merger.
 
 ## Usage
 *note: you need ruby installed to use this or use and [online interpreter](https://replit.com/languages/ruby)*
